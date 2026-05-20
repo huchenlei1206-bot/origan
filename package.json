@@ -8,7 +8,8 @@
     "build": "run-p type-check build-only",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "serve:dist": "vite preview --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
     "@lucide/vue": "^1.16.0",
